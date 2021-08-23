@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    --primary-blue: #58F3D1;
+    --secondary-blue: #ade0e4;
+    --primary-lack: #212121;
+    margin: 0;
+    font-family: 'Pacifico', cursive; 
+}
+
+body{
+    background: var(--primary-blue);
+    color: var(--primary-lack);
+    
+}
+
+
+.main-header{
+    font-size: 3.5rem;
+}
+
+.put-in-center{
+    text-align: center;
+    margin: auto;
+}
+
+#txt-input{
+    width: 60%;
+    height: 15vh;
+    display: block;
+    margin: auto;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+#btn-translate{
+    background: var(--primary-blue);
+    width: 20%;
+    height: 8vh;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+}
+
+#output{
+    width: 60%;
+    height: 15vh;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: white; 
+}
+
+.footer-about{
+    text-align: center;
+    margin: auto;
+    font-size: 2.5rem;
+}
+
+.footer-discription{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-size: 1.3rem;
+}
